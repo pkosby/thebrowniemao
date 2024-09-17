@@ -1,0 +1,202 @@
+/* Estilos Globais */
+body.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Cabeçalho */
+.header-image{
+    height: auto;
+    width: 300px;
+}
+.header {
+    background-color: #e3e3d7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 15px;
+    background-color:#750000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.header-title {
+    font-size: 2.5em;
+    padding: 20px;
+    background-color: #750000;
+    margin-right: 500px;
+    margin-left: 500px;
+    border-radius: 30px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.header-subtitle {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: #750000;
+    padding: 15px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
+}
+.produto{
+    text-align: center;
+}
+.btn.cta-btn {
+    background-color: #ca1514;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.btn.cta-btn:hover {
+    background-color: #cf8a24;
+}
+
+/* Seção Principal */
+.main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+.brownie-image{
+    height: auto;
+    width: 500px;
+    border-radius: 50px;
+}
+.section-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #6d4c41;
+    font-family: 'Great Vibes', cursive;
+}
+
+.section-text {
+    font-size: 1.1em;
+    display: block;
+    line-height: 1.6;
+    text-align: center;
+    color: #666;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding:10px;
+}
+
+.produtos-section .produto {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #6d4c41;
+    font-family: 'Great Vibes', cursive;
+}
+
+.produto-description {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Seção de Chamada para Ação */
+.cta-section {
+    background-color: #860000;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cta-section .section-title {
+    color: white;
+}
+
+.cta-section .section-text {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #6d4c41;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contato-section .section-title {
+    color: white;
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address-item {
+    margin: 5px 0;
+}
+
+.address-link {
+    color: white;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+#section-text{
+    color:white;
+}
