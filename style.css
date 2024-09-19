@@ -1,33 +1,20 @@
-/* Estilos Globais */
-body.body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+body {
+    background-color: #e3e3d7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Cabeçalho */
-.header-image{
-    height: auto;
-    width: 300px;
-}
 .header {
-    background-color: #e3e3d7;
-    color: white;
-    padding: 20px;
-    text-align: center;
 }
 
 .nav {
-    margin-bottom: 15px;
 }
 
 .nav-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
     display: flex;
+    flex-direction: row;
+    list-style-type: none;
     justify-content: center;
 }
 
@@ -47,36 +34,40 @@ body.body {
     font-weight: bold;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
+.flex-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-image{
+    display: flex;
+    flex:1;
+    width:300px;
 }
 
 .header-title {
-    font-size: 2.5em;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
     background-color: #750000;
-    margin-right: 500px;
-    margin-left: 500px;
+    padding:30px;
     border-radius: 30px;
+    color:white;
     font-family: 'Great Vibes', cursive;
 }
 
 .header-subtitle {
-    display: block;
-    font-size: 30px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
     background-color: #750000;
-    padding: 15px;
-    margin-left: 550px;
-    margin-right: 550px;
-    border-radius: 20px;
+    padding:30px;
+    border-radius: 30px;
+    color:white;
     font-family: 'Great Vibes', cursive;
-    font-weight: 300;
 }
-.produto{
-    text-align: center;
-}
-.btn.cta-btn {
+
+
+.cta-btn {
     background-color: #ca1514;
     color: white;
     padding: 10px 20px;
@@ -87,116 +78,125 @@ body.body {
     margin-bottom: 15px;
 }
 
-.btn.cta-btn:hover {
-    background-color: #cf8a24;
-}
 
-/* Seção Principal */
 .main {
-    padding: 20px;
-}
-
-.section {
-    margin-bottom: 40px;
-}
-.brownie-image{
-    height: auto;
-    width: 500px;
-    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .section-title {
-    font-size: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-    color: #6d4c41;
     font-family: 'Great Vibes', cursive;
+    background-color: #750000;
+    color: white;
+    border-radius: 30px;
+    font-size:35px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.section-text {
-    font-size: 1.1em;
-    display: block;
-    line-height: 1.6;
-    text-align: center;
-    color: #666;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding:10px;
-}
-
-.produtos-section .produto {
-    background-color: white;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding:20px;
+    border-radius: 30px;
+    background-color: #750000;
+    font-family: 'Great Vibes', cursive;
+    font-size:20px;
+    height: auto;
+    max-width: 500px;
 }
 
 .produto-title {
-    font-size: 40px;
-    margin-bottom: 10px;
-    color: #6d4c41;
-    font-family: 'Great Vibes', cursive;
+    font-size:30px;
 }
 
 .produto-description {
-    font-size: 1em;
-    line-height: 1.5;
-    color: #333;
 }
 
-/* Seção de Chamada para Ação */
-.cta-section {
-    background-color: #860000;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    border-radius: 10px;
+.brownie-image {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-width: 500px;
+    border-radius: 30px;
 }
-
-.cta-section .section-title {
-    color: white;
-}
-
-.cta-section .section-text {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    color: white;
-}
-
-/* Rodapé */
-.footer {
-    background-color: #6d4c41;
+.sobre-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     padding: 20px;
+    border-radius: 30px;
+    background-color: #750000;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    margin-top: 20px; 
+    height: auto;
+    max-width: 500px;
+}
+.sobre-title{
+    font-size: 30px;
+    color: white;
+}
+.sobre-description{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
     text-align: center;
+
 }
 
-.contato-section .section-title {
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: #750000;
+    margin-top: 20px; 
+    height: auto;
+    max-width: 500px;
+}
+.cta-title{
+    font-family: 'Great Vibes', cursive;
+    font-size:30px;
+}
+.cta-text{
+    text-align: center;
+}
+.contato-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: #750000;
+    margin-top: 20px; 
+    height: auto;
+    max-width: 500px;
+    text-align: center;
+}
+.whatsapp-link {
+    color: white;
+}
+
+.footer {
+}
+
+.contato-section {
 }
 
 .address {
-    margin-top: 20px;
-}
-
-.address-item {
-    margin: 5px 0;
 }
 
 .address-link {
-    color: white;
-    text-decoration: none;
-}
-
-.address-link:hover {
-    text-decoration: underline;
+    color:white;
 }
 
 .footer-text {
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-#section-text{
-    color:white;
 }
